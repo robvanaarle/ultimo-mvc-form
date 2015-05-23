@@ -25,7 +25,7 @@
   ],
   "require": {
     "robvanaarle/ultimo-form": "dev-master",
-    "robvanaarle/ultimo-ultimo-mvc": "dev-master"
+    "robvanaarle/ultimo-mvc": "dev-master"
   },
   "autoload": {
     "psr-4": {
