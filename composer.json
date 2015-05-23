@@ -1,31 +1,36 @@
 {
-    "name": "robvanaarle/ultimo-form-mvc",
-    "description": "Form handling for Ultimo MVC",
-    "type": "library",
-    "keywords": [
-        "http",
-        "form",
-        "UltimoMVC"
-    ],
-    "license": "BSD-3-Clause",
-    "authors": [
-	  		{
-	    	  "name": "Rob van Aarle"
-	  		}
-	  ],
-    "repositories": [
-      	{
-        	"type": "vcs",
-        	"url": "https://github.com/robvanaarle/ultimo-form"
-      	}
-    ],
-    "require": {
-        "robvanaarle/ultimo-form": "dev-master"
+  "name": "robvanaarle/ultimo-mvc-form",
+  "description": "Form handling for Ultimo MVC",
+  "type": "library",
+  "keywords": [
+    "http",
+    "form",
+    "UltimoMVC"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Rob van Aarle"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/robvanaarle/ultimo-form"
     },
-    "autoload": {
-    		"psr-4": {
-       			"ultimo\\": "src/ultimo/"
-    		}
+    {
+      "type": "vcs",
+      "url": "https://github.com/robvanaarle/ultimo-mvc"
+    }
+  ],
+  "require": {
+    "robvanaarle/ultimo-form": "dev-master",
+    "robvanaarle/ultimo-ultimo-mvc": "dev-master",
+  },
+  "autoload": {
+    "psr-4": {
+      "ultimo\\": "src/ultimo/"
+    }
   }
 }
 
